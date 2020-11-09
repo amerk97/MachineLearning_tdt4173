@@ -1,2 +1,0 @@
-The dataset is found on Kaggle's public dataset repository: https://www.kaggle.com/spscientist/students-performance-in-exams 
--
