@@ -11,17 +11,17 @@ The following is the project proposal:
 The dataset for the project is ”Students Performance in Exams” from Kaggle. The data set has 1000 instances with 8 attributes. The first three attributes are integer values indicating thestudent’s score in math, writing and reading. The remaining five attributes are categorical and contain information about the student that can affect school performance, and include gender, ethnicity, parental level of education, lunch, and test preparation. 
 
 The objective of the project is to evaluate a set of supervised learning algorithms based on the chosen data set. The supervised learning classifiers used for this task are:
-•Support Vector Machine (SVM)
-•K-Nearest Neighbors (KNN)
-•Decision Trees (DT)
-•Random Forests (RF)
+*Support Vector Machine (SVM)
+*K-Nearest Neighbors (KNN)
+*Decision Trees (DT)
+*Random Forests (RF)
 
 In order to evaluate and compare each algorithm’s performance, the following performance metricsare used:
-•F1-Score
-•Confusion Matrix
-•Precision-Recall
-•Specificity-Sensitivity
-•K-Fold Cross-Validation
+*F1-Score
+*Confusion Matrix
+*Precision-Recall
+*Specificity-Sensitivity
+*K-Fold Cross-Validation
 
 After comparing the algorithms according to the different evaluation methods, the best fitted algorithm will be tuned to best fit the data set. "
 
