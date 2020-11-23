@@ -1,11 +1,17 @@
-"StudentsPerformance_1" is the exact same as the original dataset, so this is just the raw data used to derive our new CSVs. 
+### Running the prepocessing scripts
 
-Not much cleaning of the data is required for this dataset This is looked further at in the "stats" notebook under "Notebooks" directory.
+To run the scripts, you need Numpy and Pandas libraries installed.
 
-As for preprocessing, the first step is combining the scores into an aggregated score, which will be used as our target variable in score prediction. The target variable is then made binary, marked as "above average score" and "below average score".
+1. Make sure you have the CSV-file "StudentsPerformance_1.csv" in the same directory as the scripts.
+2. Run the script "initialpre.py", which takes in "StudentsPerformance_1.csv" and does initial processing. A file "Initial.csv" should be created.
+Now, make sure that "Initial.csv" is in the same directory as the scripts. The following two steps can be done in any order:
+3. Run the script "onehot_all.py", which takes in "Initial.csv". A file "OnehotAll.csv" should be created.
+4. Run the script "onehotord.py", which takes in "Initial.csv". A file "OnehotOrd.csv" should be created. 
 
-Furthermore, encoding is performed on the data to fit the models. Here, 2 CSV files are included, derived from Initial.csv the following:
-* OnehotAll: All variables are one hot encoded.
-* OnehotOrd: All variables are one hot encoded, except parental education which is ordinal encoded. 
+You should now have two CSV-files:
+* "OnehotAll.csv", where all variables are one-hot encoded.
+* "OnehotOrd.csv", where all variables are one-hot encoded, except parental education which is ordinal encoded.
+These two files should be copied and moved to the same directory as the notebooks implementing the ML-models, with the same naming. 
 
-The python files containing the scripts for the preprocessing and CSV file creation are also in this directory, some other scripts/notebooks may be included.
+NOTE: "StudentsPerformance_1.csv" is the exact same as the original dataset but renamed, so this is just the raw data used to derive our new CSVs. 
+
