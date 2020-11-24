@@ -6,4 +6,4 @@ Jupyter notebooks with sklearn implementations of the following models for the p
 
 Furthermore, the directory may contain some additional notebooks outside of model implementations, such as the "stats" notebook, which includes some brief analysis of the dataset. 
 
-#TODO: Update to newest versions, remove redundant/outdated notebooks
+#TODO: Update to newest versions, remove redundant/outdated notebooks, description and instructions
