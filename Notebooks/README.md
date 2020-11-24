@@ -1,9 +1,11 @@
-Jupyter notebooks with sklearn implementations of the following models for the project:
+## Instructions
+
+To run the notebooks, make sure that you have "StudentsPerformance.csv", "OnehotAll.csv" and "OnehotAll.csv" in the same directory as the open notebook.
+The packages mainly used are numpy, matplotlib, seaborn, sklearn and pandas. These are needed to run the code. 
+
+All code content related to each classifier is located in their respective notebook:
 - Decision tree classifier
 - Random forest classifier
 - Support vector classifier
 - K-nearest neigbor classifier
-
-Furthermore, the directory may contain some additional notebooks outside of model implementations, such as the "stats" notebook, which includes some brief analysis of the dataset. 
-
-#TODO: Update to newest versions, remove redundant/outdated notebooks, description and instructions
+The notebook kernels should not need any modifications, and should be able to run as long as you have the correct CSV-files in your directory. 
