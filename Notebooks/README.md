@@ -8,4 +8,5 @@ All code content related to each classifier is located in their respective noteb
 - Random forest classifier
 - Support vector classifier
 - K-nearest neigbor classifier
+
 The notebook kernels should not need any modifications, and should be able to run as long as you have the correct CSV-files in your directory. 
